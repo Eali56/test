@@ -1538,7 +1538,7 @@ func:function()
 		use:{'worker':1},
 		//upkeep:{'coin':0.2},
 		effects:[
-			{type:'gather',what:{'insight':1000.1}},
+			{type:'gather',what:{'insight':0.1}},
 			{type:'gather',what:{'insight':0.05},req:{'symbolism':true}},
 			{type:'mult',value:1.2,req:{'wisdom rituals':'on'}}
 		],
